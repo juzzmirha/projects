@@ -1,0 +1,125 @@
+html {
+    background-color: #191919;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Poppins;
+}
+
+.input_btn {
+    text-align: center;
+}
+.add_btn {
+    text-transform: uppercase;
+    width: 445px;
+    background-color: transparent;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.add_btn:hover {
+    opacity: 0.7;
+}
+
+
+form {
+    margin-bottom: 10px;
+    text-align: center;
+}
+form .input_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    font-family: Poppins;
+    width: 430px;
+    border-radius: 4px;
+    padding: 10px 5px;
+}
+
+form input:focus {
+    outline: none;
+}
+
+
+/* Todo */
+.todo {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 425px;
+    background-color: white;
+    color: black;
+    padding: 1px 10px;
+    margin: 1px auto;
+    height: 50px;
+}
+
+.todo_btn {
+    display: flex;
+    gap: 1px; 
+}
+
+.done_btn,
+.delete_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+
+.done_btn:hover,
+.delete_btn:hover {
+    opacity: 0.7;
+    background-color: yellow;
+    color: black;
+}
+
+.done_btn {
+    background-color: greenyellow;
+}
+
+.delete_btn {
+    background-color: red;
+}
+
+/* Js components */
+.completed {
+    text-decoration: line-through;
+}
+.warning{
+    opacity: 0.8;
+    background-color: yellow;
+    color: black;
+}

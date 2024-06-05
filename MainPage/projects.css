@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: -8px;
+    margin-bottom: 50px;
+    height: 180px;
+}
+header h1{
+    font-family: Poppins;
+    font-size: 300;
+    font-style: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+header p{
+    font-family: Poppins;
+}
+
+/* Project Items */
+.project_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.project_item{
+    width: 280px;
+    text-align: center;
+}
+.item_content{
+    font-family: Poppins;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    transition: 0.2s linear;
+    padding: 5px;
+    height: 300px;
+}
+.item_content button{
+    padding: 4px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.2s linear;
+}
+.text{
+    height: 250px;
+}
+button:hover{
+    opacity: 0.6;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.item_content:hover{
+    box-shadow: 0 0 15px grey;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;
+    padding: 10px; 
+}
+footer h1{
+    font-size: 13px;
+    font-family: Poppins;
+}

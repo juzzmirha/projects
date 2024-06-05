@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Calculator/style.css">
+    <link rel="icon" href="../Calculator/calculator.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="calc">
+        <div class="calc_title">
+            <h1>Calculator</h1>
+        </div>
+        <div class="calc_input">
+            <input type="number" placeholder="First Number" id="First" value="10">
+            <br>
+            <input type="number" placeholder="Second Number" id="Second" value="5">
+        </div>
+
+        <div class="calc_btn">
+            <button class="calc_btns calc_btns--plus" id="plus_btn"> + </button>
+            <button class="calc_btns calc_btns--minus" id="minus_btn"> - </button>
+            <br>
+            <button class="calc_btns calc_btns--multiple" id="multiple_btn"> * </button>
+            <button class="calc_btns calc_btns--divide" id="divide_btn"> / </button>
+        </div>
+
+        <div class="calc_execute">
+            <button class="execute" id="execute_btn">execute</button>
+        </div>
+
+        <div class="calc_result">
+            <p id="result">
+                You can always be thinner, look better!
+            </p>
+        </div>
+    </div>
+    
+    <script src="../Calculator/app.js"></script>
+</body>
+</html>
